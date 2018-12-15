@@ -1,0 +1,153 @@
+.portfolio
+{
+    background-color: #fff;
+    width: 100%;
+}
+
+
+.fragment
+{
+    color: #222;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.container-portfolio
+{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+
+
+.project
+{
+    left: 0;
+    top: 0;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.project-img {
+    height: auto;
+    width: 100%;
+    overflow: visible;
+    position: relative;
+    border: 1px solid #222;
+    border-bottom: none rgb(34, 34, 34);
+}
+
+.project-title {
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222;
+    border-left: 1px solid #222;
+    position: relative;
+    margin-right: -2px;
+}
+
+.project-title h5 {
+    padding-top: 22px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', serif;
+}
+
+.project-title .hr {
+    height: 2px;
+    background-color: #cecece;
+    width: 40px;
+    margin: 0 auto 22px;
+}
+
+.project-title span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.arrow-holder
+{
+    position: absolute;
+    width: 100%;
+    bottom: 17px;
+    height: 39px;
+}
+
+.arrow-up
+{
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #fff;
+    display: inline;
+}
+
+.demo
+{
+    background-color: #fff;
+    position: relative;
+    top: 28px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.demo-click
+{
+    color: #222;
+    background: none;
+    border: 1px solid #222;
+    padding: 18px 28px 18px 28px;
+    display: inline-block;
+    font-family: 'Montserrat', serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.project .demo-click:hover
+{
+    color: #fff;
+    background-color: #222;
+}
+
+.icon-arrow
+{
+
+    font-size: 11px;
+}
+
+.icon-brush-2
+{
+    font-size: 28px;
+    color: #222;
+}
+
+@media screen and (max-width:1000px) {
+    .icon-brush-2{
+        line-height: 41px;
+    }
+
+    .project
+    {
+        width: 90%;
+        margin: 35px auto 100px auto;
+    }
+}
+
+@media screen and (min-width:1001px) {
+    .icon-brush-2{
+        line-height: 46px;
+    }
+
+    .project
+    {
+        width: 33.333333%;
+        margin: 35px 0 50px;
+    }
+}

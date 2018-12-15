@@ -1,0 +1,183 @@
+.about-me
+{
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.page-me
+{
+    border: 2px solid #222;
+    display: inline-block;
+    margin-bottom: 42px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+}
+
+
+.page-me > h3, .page-title > i {
+    display: block;
+}
+
+
+
+.text
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text p
+{
+    font-weight: 300;
+    color: #484848;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text p span
+{
+    border-bottom: 1px solid #888;
+}
+
+
+.mockup
+{
+    margin-top: 150px;
+}
+
+.rwd-text
+{
+    font-size: 30px;
+    color: white;
+    margin-top: -490px;
+    text-shadow:0 0 6px black;
+}
+
+h3
+{
+    float: left;
+    border-right: 2px solid #222;
+    margin: 0;
+    color: #222;
+}
+
+.page-me2
+{
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 42px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+
+.page-me2 > h2, .page-title > i {
+    display: block;
+}
+
+
+.icon-user-1
+{
+    right: 0;
+    font-size: 28px;
+    color: #222;
+}
+
+.page-me .icon-user-1
+{
+    margin: 0 3px 0 3px;
+}
+
+
+/*.rwd
+{
+    width: 100%;
+    height: 470px;
+    background: url(img/header-bg3.jpg);
+    font-family: 'Vollkorn', serif;
+    background-size: cover !important;
+    background-position: center center;
+    background-attachment: fixed !important;
+}*/
+
+
+@media screen and (max-width:1000px) {
+    h3 {
+        font-size: 22px;
+        padding: 0 25px 0 22px;
+        line-height: 41px;
+    }
+
+    .text
+    {
+        width: 88%;
+    }
+
+    .text p
+    {
+        font-size: 18px
+    }
+
+    .icon-user-1
+    {
+        line-height: 37px;
+    }
+
+    #navigation ul
+    {
+        height: 100px;
+        background-color: #222;
+        flex-direction:column;
+        margin: 60px 0 0;
+
+    }
+
+    #navigation
+    {
+        background: none;
+    }
+
+    nav#navigation
+    {
+        max-height: 64px;
+        background-color: #222 !important;
+        display: block;
+        z-index: 2;
+    }
+
+    #mobile-toggle {
+        display: block;
+    }
+
+
+}
+
+@media screen and (min-width:1001px) {
+    h3 {
+        font-size: 27px;
+        padding: 7px 25px 7px 22px;
+    }
+
+    .text
+    {
+        width: 60%;
+    }
+
+    .text p
+    {
+        font-size: 22px;
+    }
+
+    .icon-user-1
+    {
+        line-height: 46px;
+    }
+
+    #navigation ul
+    {
+        display: block !important;
+    }
+
+}
